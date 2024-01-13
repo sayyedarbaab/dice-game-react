@@ -2,6 +2,7 @@ import React from 'react'
 import TotalScore from './TotalScore'
 import NumberSelctor from './NumberSelctor'
 import styled from 'styled-components'
+import DiceRole from './DiceRole';
 
 function GamePlay() {
   return (
@@ -10,6 +11,7 @@ function GamePlay() {
     <TotalScore />
     <NumberSelctor />
     </div>
+    <DiceRole />
     </MainContainer>
   );
 }
