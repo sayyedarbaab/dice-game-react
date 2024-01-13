@@ -18,7 +18,7 @@ export default StartGame
 
 
 const Container=styled.div`
-max-width:1180px;
+max-width:1080px;
 margin-top: 50px;
 margin:0 auto;
 display:flex;
@@ -31,6 +31,7 @@ height: 90vh;
     }
 }
 `;
+
 const Button=styled.button`
 display:flex;
 flex-direction:column;
@@ -55,4 +56,4 @@ cursor:pointer;
     color:black;
     transition: 0.3s background ease-in;
 }
-`;
+`

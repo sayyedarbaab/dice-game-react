@@ -18,6 +18,7 @@ export default GamePlay
 
 
 const MainContainer=styled.main`
+padding: 0px 30px 0px 30px;
 .flex{
   display:flex;
   justify-content:space-between;
