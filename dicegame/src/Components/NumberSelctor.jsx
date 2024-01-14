@@ -40,6 +40,7 @@ cursor:pointer;
 background:${(props)=> (props.isSelected ? "black":"white")};
 color:${(props)=> (!props.isSelected ? "black":"white")};
 gap:20px;
+border-radius:15px;
 `
 
 const NumberSelctorContainer=styled.div`
