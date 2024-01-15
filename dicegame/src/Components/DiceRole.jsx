@@ -1,4 +1,3 @@
-
 import styled from 'styled-components'
 
 function DiceRole({currentDice,roleDice}) {
@@ -31,5 +30,4 @@ img{
 h1{
     margin-right:65px;
 }
-
 `

@@ -17,7 +17,6 @@ function StartGame({toggle}) {
 export default StartGame
 
 
-
 const Container=styled.div`
 max-width:1080px;
 margin-top: 50px;

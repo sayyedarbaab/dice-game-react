@@ -62,5 +62,4 @@ const NumberSelctorContainer=styled.div`
  .error{
   color:red;
  }
-
 `

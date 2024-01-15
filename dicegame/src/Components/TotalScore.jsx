@@ -26,5 +26,4 @@ p{
     font-weight:500px;
     margin-top: -55px;
 }
-
 `
