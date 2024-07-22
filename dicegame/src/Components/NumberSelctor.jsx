@@ -34,15 +34,15 @@ export default NumberSelctor
 const Box=styled.div`
 height:60px;
 width:60px;
-border:1px solid black;
+border:1px solid red;
 display:grid;
 place-items:center;
 font-size:24px;
 font-weight:700;
 color:white;
 cursor:pointer;
-background:${(props)=> (props.isSelected ? "black":"white")};
-color:${(props)=> (!props.isSelected ? "black":"white")};
+background:${(props)=> (props.isSelected ? "darkgray":"white")};
+color:${(props)=> (!props.isSelected ? "darkgray":"white")};
 gap:20px;
 border-radius:15px;
 `
